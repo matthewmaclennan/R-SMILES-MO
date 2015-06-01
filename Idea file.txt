@@ -1,0 +1,8 @@
+Create a string notation for molecular orbitals. Currently, molecular orbital data is stored in a cube file.
+A linear string notation for molecular orbitals would considerably decrease the data load created by cube files.
+Molecular orbitals are necessarily 3-D objects, which lends to the difficulty in creating a string notation.
+Important concepts to encode include the following:
+  1. MO environment around atoms (relative to some standard orientation)
+  2. Phase information (relative to a standard MO phase)
+  3. Mixing information (not relative)
+Such MO storage can hopefully be used to infer chemical reactions quickly.
